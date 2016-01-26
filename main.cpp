@@ -99,14 +99,14 @@ int main()
         // Schleife verlassen und Programm beenden
         else if (menuEntry == 3)
         {
-            bRunning = false; 
+			bRunning = false; 
         }
         // falsche Eingabe
         else 
         {
-            std::cout << "Fehlerhafte Eingabe! Bitte wiederholen ..." << std::endl;
+            std::cout << "Fehlerhafte Eingabe! " << std::endl;
         }
     }
-
-    return 0;
+    
+	return 0;
 }

@@ -7,11 +7,21 @@
 //---------------------------------------------------------------------------------------------------------------------
 
 // returns the choosen Menu-Point
+//int GUI::showMenu()
+//{
+//	std::cout << "Bitte waehlen Sie eine Option:" << std::endl
+//		<< "1 - Neuer Auftrag" << std::endl
+//		<< "2 - Ausgabe aller Firmen mit Umsaetzen " << std::endl
+//		<< "3 - Beenden" << std::endl;
+//		 
+//	return inputNumber("Ihre Eingabe: ");
+//}
+
 int GUI::showMenu()
 {
 	std::cout << "Bitte wählen Sie eine Zahl für die jeweilige Aktion:" << std::endl
-		<< "1 - Neuer Auftrag" << std::endl
-		<< "2 - Ausgabe aller Firmen mit Umsaetzen " << std::endl
+		<< "1 - Neue Buchung" << std::endl
+		<< "2 - Ausgabe aller Buchungen" << std::endl
 		<< "3 - Beenden" << std::endl;
 
 	std::cout << "Eingabe: ";
@@ -19,7 +29,6 @@ int GUI::showMenu()
 	std::cin >> eingabe;
 	return eingabe;
 }
-
 
 //---------------------------------------------------------------------------------------------------------------------
 
