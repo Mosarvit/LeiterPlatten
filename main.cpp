@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 
+#include "PreisAngebot.h"
 #include "PreisMap.h"
 #include "GUI.h"
 
@@ -82,18 +83,18 @@ int main()
         // Flug buchen
         if (menuEntry == 1) 
         {
-            try {
+            //try {
 				gui.angebotBerechnung(rSysEng, rHWTesting);
-            }
-            catch (const TravelGuiException& e) {
-                std::cout << "Route konnte nicht gebucht werden!" << std::endl;
-                std::cout << "Ursache: " << e.getError() << std::endl;
-            }
+            //}
+            //catch (const TravelGuiException& e) {
+            //    std::cout << "Route konnte nicht gebucht werden!" << std::endl;
+            //    std::cout << "Ursache: " << e.getError() << std::endl;
+            //}
         }
         // Liste aller Buchungen anzeigen
         else if (menuEntry == 2) 
         {
-            gui.showBookingList();
+           // gui.showBookingList();
         }
         // Schleife verlassen und Programm beenden
         else if (menuEntry == 3)

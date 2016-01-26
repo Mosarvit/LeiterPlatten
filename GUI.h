@@ -2,6 +2,7 @@
 #define TRAVEL_GUI
 
 #include <vector>
+#include <string>
 
 #include "PreisMap.h"
 #include "Booking.h"
@@ -25,18 +26,20 @@ public:
 	bool angebotBerechnung(Node& rStart, Node& rEnde);
 
     // Gibt eine Liste aller gebuchten Reisen aus.
-    void showBookingList();
+    // void showBookingList();
 
 
 private:
 
-	int readAnzahl(); // Helper Funktion, um eine Stadt einzulesen.
-
+	//int readAnzahl(); // Helper Funktion, um eine Stadt einzulesen.
 	//PreisMap& m_rNetwork;
 
 	vector<PreisMap*> m_rPreisMaps;
 
-    std::list<Booking> m_bookings;
+    //list<Booking> m_bookings;
+
+	int inputNumber(string question);
+	string inputString(string question);
 
 };
 

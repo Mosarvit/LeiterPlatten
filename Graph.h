@@ -1,5 +1,5 @@
-#ifndef GRAPH_H
-#define GRAPH_H
+#ifndef PREISANGEBOT
+#define PREISANGEBOT
 
 #include <list>
 #include <vector>

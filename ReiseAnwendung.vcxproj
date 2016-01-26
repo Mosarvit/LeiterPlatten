@@ -79,9 +79,9 @@
   <ItemGroup>
     <ClCompile Include="Edge.cpp" />
     <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="GUI.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Node.cpp" />
-    <ClCompile Include="GUI.cpp" />
     <ClCompile Include="PreisAngebot.cpp" />
     <ClCompile Include="PreisMap.cpp" />
   </ItemGroup>
